@@ -89,9 +89,9 @@ img{
 
 </style>
 
-<script type="text/javascript" src="llqrcode.js"></script>
-<script type="text/javascript" src="plusone.js"></script>
-<script type="text/javascript" src="webqr.js"></script>
+<script type="text/javascript" src="js/llqrcode.js"></script>
+<script type="text/javascript" src="js/plusone.js"></script>
+<script type="text/javascript" src="js/webqr.js"></script>
 
 </head>
 
@@ -109,8 +109,8 @@ QR Code scanner
 <td valign="top" align="center" width="50%">
 <table class="tsel" border="0">
 <tr>
-<td><img class="selector" id="webcamimg" src="vid.png" onclick="setwebcam()" align="left" /></td>
-<td><img class="selector" id="qrimg" src="cam.png" onclick="setimg()" align="right"/></td></tr>
+<td><img class="selector" id="webcamimg" src="img/vid.png" onclick="setwebcam()" align="left" /></td>
+<td><img class="selector" id="qrimg" src="img/cam.png" onclick="setimg()" align="right"/></td></tr>
 <tr><td colspan="2" align="center">
 <div id="outdiv">
 </div></td></tr>
@@ -118,7 +118,7 @@ QR Code scanner
 </td>
 </tr>
 <tr><td colspan="3" align="center">
-<img src="down.png"/>
+<img src="img/own.png"/>
 </td></tr>
 <tr><td colspan="3" align="center">
 <div id="result"></div>
