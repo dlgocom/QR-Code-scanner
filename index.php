@@ -118,7 +118,7 @@
 							</td>
 						</tr>
 						<tr><td colspan="3" align="center">
-							<img src="img/own.png"/>
+							<img src="img/down.png"/>
 						</td></tr>
 						<tr><td colspan="3" align="center">
 							<div id="result"></div>
